@@ -1,5 +1,8 @@
-{% if title %}
-    <p> {{title }}</p> 
-{% else %}
-    <p> Empty</p>
-{% endif %}
+{% extends "base.html.twig" %}
+
+{% block title %}Movies Page{% endblock %}
+
+
+{% block body %}
+    {{ author }}
+{% endblock %}
